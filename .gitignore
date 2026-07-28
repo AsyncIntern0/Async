@@ -7,6 +7,9 @@
 !models/
 !models/**
 
-# Ignore itself (this gitignore file itslef)
+!requirements.txt
+
+!README.md
+
 !.gitignore
 
