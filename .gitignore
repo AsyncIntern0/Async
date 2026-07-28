@@ -1,0 +1,12 @@
+# Ignore everything
+*
+# Keep these folders 
+!scripts/
+!scripts/**
+
+!models/
+!models/**
+
+# Ignore itself (this gitignore file itslef)
+!.gitignore
+
