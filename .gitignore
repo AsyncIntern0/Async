@@ -1,15 +1,32 @@
 # Ignore everything
 *
-# Keep these folders 
+
+# Keep source folders
 !scripts/
 !scripts/**
+
+!scripts2/
+!scripts2/**
 
 !models/
 !models/**
 
 !requirements.txt
-
 !README.md
-
 !.gitignore
 
+# Ignore Python cache
+**/__pycache__/
+**/*.pyc
+
+# Ignore calibration outputs
+scripts2/calibration/**
+
+# Ignore calibration images
+scripts2/calibration_images/**
+
+# Ignore test folder
+scripts2/test_for_scripts2/**
+
+# Ignore generated pose files
+scripts2/geometry/poses/**
